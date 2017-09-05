@@ -1,0 +1,4 @@
+plugins:
+  dev_login_enabled:
+    default: true
+    client: true

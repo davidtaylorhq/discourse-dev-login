@@ -1,0 +1,11 @@
+<div class="dev-login-buttons">
+{{i18n "dev_login.login_as"}} 
+
+{{#if loading}}
+  {{i18n "dev_login.loading"}} 
+{{else}}
+  {{#each users as |username|}}
+     <a {{action "login" username}}>{{username}}</a> 
+  {{/each}}
+{{/if}}
+</div>

@@ -1,0 +1,14 @@
+div.dev-login-buttons{
+  padding: 10px;
+  margin: 10px;
+  background-color: $primary;
+  color: $secondary;
+  border-radius: 10px;
+
+  a{
+    background-color: $primary-low;
+    padding: 3px 8px;
+    margin-left: 5px;
+    border-radius: 3px;
+  }
+}

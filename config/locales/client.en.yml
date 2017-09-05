@@ -1,0 +1,5 @@
+en:
+  js:
+    dev_login:
+      login_as: "Login as:"
+      loading: "(loading users...)"
